@@ -1,0 +1,23 @@
+{
+    "name": "rstoetter/libsqlphp",
+    "description": "library with a simple text parser",
+    "license": "MIT",
+    "keywords": ["php", "text","parser"],
+    "authors": [
+        {
+            "name": "Rainer Stötter",
+            "email": "rstoetter@users.sourceforge.net"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "rstoetter\\libsqlphp\\": "src"
+        }
+    }
+}
