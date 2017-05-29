@@ -4,7 +4,7 @@
 
 // cTextParser.class.php
 
-namespace \rstoetter\cTextParser;
+namespace rstoetter\cTextParser;
 
 /**
   *
@@ -427,7 +427,7 @@ class cTextParser {
       * Example:
       *
       *
-      * if ( $this->IsWhitespace( $chr ) == '"' ) $this->FollowBegrenzer( $chr );
+      * if ( $this->IsWhitespace( $chr )  ) $this->FollowBegrenzer( $chr );
       *
       */
 
@@ -449,7 +449,7 @@ class cTextParser {
       * Example:
       *
       *
-      * if ( $this->IsWhitespace( $chr ) == '"' ) $this->FollowDelimiter( $chr );
+      * if ( $this->IsWhitespace( $chr ) ) $this->FollowDelimiter( $chr );
       *
       */
 
@@ -652,7 +652,7 @@ class cTextParser {
       *
       * Returns the next identifier in the buffer starting from the internal buffer pointer
       *
-      *  An identifier starts with a character of class isidstart() and ends up with characters of class isidstart()
+      *  An identifier starts with a character of class isidstart() and ends up with characters of class isidnext()
       *
       * @return string the identifier
       *
