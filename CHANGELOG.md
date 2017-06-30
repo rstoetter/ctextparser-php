@@ -1,4 +1,4 @@
-# changelog of cTextParser-php
+# changelog of cTextParser
 
 ## Release  1.0.1
 

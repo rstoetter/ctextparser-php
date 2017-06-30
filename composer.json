@@ -1,5 +1,5 @@
 {
-    "name": "rstoetter/libsqlphp",
+    "name": "rstoetter/cTextParser",
     "description": "library with a simple text parser",
     "license": "MIT",
     "keywords": ["php", "text","parser"],

@@ -6,6 +6,7 @@
 
 namespace rstoetter\cTextParser;
 
+
 /**
   *
   * The class cTextParser implements a rudimentary parser for a text file. The namespace is \rstoetter\cTextParser.
