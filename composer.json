@@ -1,5 +1,5 @@
 {
-    "name": "rstoetter/cTextParser",
+    "name": "rstoetter/ctextparser-php",
     "description": "library with a simple text parser",
     "license": "MIT",
     "keywords": ["php", "text","parser"],
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "rstoetter\\libsqlphp\\": "src"
+            "rstoetter\\ctextparser-php\\": "src"
         }
     }
 }
